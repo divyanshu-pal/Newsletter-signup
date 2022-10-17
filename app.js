@@ -77,7 +77,7 @@ res.redirect("/");// redirect to home "/"
 });
 
 
-app.listen(3000, function(){
+app.listen(process.env.PORT, function(){
     console.log("server started at 3000");
 });
 
