@@ -59,7 +59,7 @@ app.post("/",function(req,res){
              });
             });
 
-//request.write(jsonData);
+request.write(jsonData);
   request.end();// read all post method 
 });
 
